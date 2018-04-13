@@ -1,0 +1,37 @@
+<!DCOTYPE>
+<html lang="pl">
+    <head>
+        <title>Ankieta dla graczy</title>
+        <meta charset="utf-8">
+        <link href="styles/main.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <main>
+            <h1>Gamer's questionnaire</h1>
+            <p>
+                Poniżej znajduje się anonimowa ankieta utworzona w celu zebrania informacji o graczach w Polsce. Prosimy o szczere jej wypełnienie.
+            </p>
+            <form action="#">
+                <fieldset>
+                    <legend>Podstawowe info</legend>
+                    <span class="title">Płeć</span>
+                    <label><input type="radio" name="gender" value="woman">kobieta</label>
+                    <label><input type="radio" name="gender" value="man">mężczyzna</label><br />
+                    <label class="title" for="age">Twój wiek:</label>
+                    <input type="number" id="age" name="age"><br />
+                    <label class="title" for="state">Województwo:</label>
+                    <select name="state" id="state">
+                        <option value="lub">Lubelskie</option>
+                        <option value="maz">Mazowieckie</option>
+                        <option value="pol">Poleskie</option>
+                        <option value="zch">Zachodniopomorskie</option>
+                    </select>
+                </fieldset>
+            
+            
+            </form>
+        
+        </main>
+    </body>
+
+</html>
