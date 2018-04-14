@@ -15,38 +15,49 @@
                 <fieldset>
                     <legend>Podstawowe info</legend>
                     
-                    <span class="title">Płeć</span>
-                    <label><input type="radio" name="gender" value="woman">kobieta</label>
-                    <label><input type="radio" name="gender" value="man">mężczyzna</label><br />
+                    <p>
+                        <span class="title">Płeć</span>
+                        <label><input type="radio" name="gender" value="woman">kobieta</label>
+                        <label><input type="radio" name="gender" value="man">mężczyzna</label>
+                    </p>
                     
-                    <label class="title" for="age">Twój wiek:</label>
-                    <input type="number" id="age" name="age"><br />
+                    <p>
+                        <label class="title" for="age">Twój wiek:</label>
+                        <input type="number" id="age" name="age">
+                    </p>
                     
-                    <label class="title" for="state">Województwo:</label>
-                    <select name="state" id="state">
-                        <option value="lub">Lubelskie</option>
-                        <option value="maz">Mazowieckie</option>
-                        <option value="pol">Poleskie</option>
-                        <option value="zch">Zachodniopomorskie</option>
-                    </select>
+                    <p>
+                        <label class="title" for="state">Województwo:</label>
+                        <select name="state" id="state">
+                            <option value="lub">Lubelskie</option>
+                            <option value="maz">Mazowieckie</option>
+                            <option value="pol">Poleskie</option>
+                            <option value="zch">Zachodniopomorskie</option>
+                        </select>
+                    </p>
                 </fieldset>
                 <fieldset>
                     <legend>Kolejne informacje</legend>
+                    <p>   
                     <label class="title" for="platform">Na jakich platformach grasz?</label><br />
                     <label><input type="checkbox" name="platform" id="platform" value="pc"  class="point"/>PC</label><br />
                     <label><input type="checkbox" name="platform" id="platform" value="ps"  class="point"/>PS4</label><br />
                     <label><input type="checkbox" name="platform" id="platform" value="xbox"  class="point"/>XBOX ONE</label><br />
                     <label><input type="checkbox" name="platform" id="platform" value="mobile"  class="point"/>Mobilne</label><br />
                     <label><input type="checkbox" name="platform" id="platform" value="browser"  class="point"/>Przeglądarka/Facebook</label><br />
+                    </p>
                     
-                    <p>Ile godzin, tygodniowo, spędzasz na graniu?</p>
+                    <p ><label class="title" >Ile godzin, tygodniowo, spędzasz na graniu?</label><br />
                     <label><input type="radio" id="freq" name="freq" value="one" class="point">0-1</label><br />
                     <label><input type="radio" id="freq" name="freq" value="ten" class="point">2-10</label><br />
                     <label><input type="radio" id="freq" name="freq" value="twenty" class="point">11-20</label><br />
                     <label><input type="radio" id="freq" name="freq" value="more" class="point">20&lt;</label><br />
+                    </p>
                     
-                    <label class="title" for="fav">Jaka jest Twoja ulubiona gra?</label><br />
+                    <p><label class="title" for="fav">Jaka jest Twoja ulubiona gra?</label><br />
                     <input type="text" name="fav" id="fav">
+                    </p>
+                        
                 </fieldset>
                 <input type="submit" value="Wyślij">
                 

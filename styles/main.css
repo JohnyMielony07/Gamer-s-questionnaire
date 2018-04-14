@@ -2,6 +2,8 @@ main
 {
     width: 70%;
     margin: auto;
+    font-family: sans-serif;
+    line-height: 2em;
 }
 h1
 {
@@ -11,34 +13,36 @@ h1
     word-spacing: 1.5em;
     border-bottom: 3px black solid;
 }
-.intro, legend, #platform
+.intro, legend
 {
     font-size: 1.4em;
+}
+legend
+{
+    font-size: 1.6em;
+    background-color: #DFDFE0;
+    border: 1px solid #BEBEC6;
+    border-radius: 4px;
+    padding: 2px 8px;
+    
 }
 form
 {
     margin: 10% 0 0 0;
 
 }
-input, .title, label, select, p
-{
-    font-size: 1.2em;
-    padding: 0 0.3em 0 0;
-    margin: 0.4em 0;
-}
 
-select, input,
-{
-    
-    font-size: 1em;
-}
 fieldset
 {
-    margin:0 0 2em 0;
+    margin: 2em auto;
+    width: 75%;
+    border: 1px solid #BEBEC6;
+    border-radius: 8px;
 }
 input[type="submit"]
 {
     display: block;
+    font-size: 1.5em;
     padding: 5px 40px;
     margin: 50px auto;
     border-radius: 10px;
@@ -49,4 +53,19 @@ input[type="submit"]
 input[type="submit"]:hover
 {
     background: -webkit-linear-gradient(top, #B0AFBC, #A3A1B5);
+}
+p
+{
+    font-size: 1.4em;
+    padding: 0 0.3em 0 0;
+}
+
+
+input[type=radio],input[type=checkbox]
+{
+    margin: 0 18px;
+}
+input[type=text],#state,input[type=number]
+{
+    font-size: 0.8em;
 }
