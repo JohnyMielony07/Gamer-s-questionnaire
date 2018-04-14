@@ -36,3 +36,17 @@ fieldset
 {
     margin:0 0 2em 0;
 }
+input[type="submit"]
+{
+    display: block;
+    padding: 5px 40px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-bottom: 2px solid #b2b2b2;
+    border-right: 2px solid #b2b2b2;
+    background: -webkit-linear-gradient(top, #D8D8E0, #C6C5D7);
+}
+input[type="submit"]:hover
+{
+    background: -webkit-linear-gradient(top, #B0AFBC, #A3A1B5);
+}
